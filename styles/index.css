@@ -58,7 +58,7 @@ img{
 /* Responsive styles */
 @media screen and (min-width: 577px) {
     .row{
-        height: 700px;
+        height: 850px;
     }
 }
 /* ============================ */
@@ -68,5 +68,11 @@ img{
     }
     .third-row-second-container, .last-row{
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 800px) {
+    .last-row{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
